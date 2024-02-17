@@ -17,3 +17,6 @@ jobs:
       #   run: pip install -r requirements.txt  # If you have any dependencies
       - name: Trigger function
         run: python3 /Users/goku/Desktop/Hackniche/DockerTest/my_function.py  # Replace with your Python file and function
+
+- name: Print Python version
+  run: python --version
